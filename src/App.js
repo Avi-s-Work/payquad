@@ -22,11 +22,11 @@ function App() {
       <div className="main-box">
         <div className="second-box">
           <div className="icons">
-            <div className="report single-icon">
+            <div className="payment single-icon">
               <div className="icon">
-                <img src={chart} alt="" />
+                <img src={creditCard} alt="" />
               </div>
-              <span className="icon-title">Reports</span>
+              <span className="icon-title">Payments</span>
               <strong className="tooltip tip">
                 Vitae tortor consequat lacinia nunc sodales potenti cras loi
                 suspendisse tempor liberomu risus nibh eget platea justo
@@ -42,11 +42,11 @@ function App() {
                 suspendisse tempor liberomu risus nibh eget platea justo
               </strong>
             </div>
-            <div className="payment single-icon">
+            <div className="report single-icon">
               <div className="icon">
-                <img src={creditCard} alt="" />
+                <img src={chart} alt="" />
               </div>
-              <span className="icon-title">Payments</span>
+              <span className="icon-title">Reports</span>
               <strong className="tooltip tip">
                 Vitae tortor consequat lacinia nunc sodales potenti cras loi
                 suspendisse tempor liberomu risus nibh eget platea justo
