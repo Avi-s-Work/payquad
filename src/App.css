@@ -91,6 +91,9 @@
   left: 206px;
   position: inherit;
 }
+/* .report .icon-title {
+  no need width: 0;
+} */
 
 .lead {
   top: 36px;
@@ -124,6 +127,9 @@
   left: 578px;
   position: inherit;
 }
+/* .group .icon-title {
+  no need width: 0;
+} */
 
 .community_manager {
   top: 438px;
@@ -162,12 +168,13 @@
   font-size: 18px;
   text-align: center;
   color: #646464;
-  position: inherit;
+  position: absolute;
   top: 0;
   left: -75px;
   right: -75px;
-  padding: 7px;
+  padding: 20px 18px;
   visibility: hidden;
+  border-radius: 10px;
 }
 
 .single-icon strong:before {
