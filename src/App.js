@@ -27,42 +27,70 @@ function App() {
                 <img src={chart} alt="" />
               </div>
               <span className="icon-title">Reports</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
             <div className="maintainance single-icon">
               <div className="icon">
                 <img src={maintainance} alt="" />
               </div>
               <span className="icon-title">Maintenance</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
             <div className="payment single-icon">
               <div className="icon">
                 <img src={creditCard} alt="" />
               </div>
               <span className="icon-title">Payments</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
             <div className="group single-icon">
               <div className="icon">
                 <img src={group} alt="" />
               </div>
               <span className="icon-title">Communication</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
             <div className="community_manager single-icon">
               <div className="icon">
                 <img src={community_manager} alt="" />
               </div>
               <span className="icon-title">Community</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
             <div className="resident single-icon">
               <div className="icon">
                 <img src={browser} alt="" />
               </div>
               <span className="icon-title">Resident and Tenant Portals</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
             <div className="lead single-icon">
               <div className="icon">
                 <img src={crm} alt="" />
               </div>
               <span className="icon-title">Lead to Lease CRM</span>
+              <strong className="tooltip tip">
+                Vitae tortor consequat lacinia nunc sodales potenti cras loi
+                suspendisse tempor liberomu risus nibh eget platea justo
+              </strong>
             </div>
           </div>
           <div className="third-box">

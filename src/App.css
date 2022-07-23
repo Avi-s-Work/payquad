@@ -147,7 +147,92 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
 }
+
+/* toltip */
+
+.single-icon strong {
+  background-color: white;
+  box-shadow: 0px 4px 90px rgba(198, 225, 230, 0.6);
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #646464;
+  position: inherit;
+  top: 0;
+  left: -75px;
+  right: -75px;
+  padding: 7px;
+  visibility: hidden;
+}
+
+.single-icon strong:before {
+  content: "";
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 45px solid white;
+  position: absolute;
+  top: -35px;
+}
+
+.report strong:before {
+  left: 105px;
+}
+
+.report:hover strong {
+  top: 162px;
+}
+
+.maintainance strong:before {
+  left: 130px;
+}
+
+.maintainance:hover strong {
+  top: 162px;
+}
+
+.payment strong:before {
+  left: 112px;
+}
+
+.payment:hover strong {
+  top: 162px;
+}
+
+.group strong:before {
+  left: 130px;
+}
+
+.group:hover strong {
+  top: 162px;
+}
+
+.community_manager strong:before {
+  left: 125px;
+}
+
+.community_manager:hover strong {
+  top: 162px;
+}
+
+.lead:hover strong {
+  top: 262px;
+}
+
+.lead strong:before {
+  left: 125px;
+}
+
+.single-icon:hover strong {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* toltip */
 
 .third-box {
   box-sizing: border-box;
