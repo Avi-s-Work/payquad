@@ -56,8 +56,9 @@
 }
 
 .icons {
+  width: 1156px;
+  height: 710px;
   position: absolute;
-  display: flex;
 }
 
 .icon {
@@ -72,8 +73,6 @@
 }
 
 .icon-title {
-  width: 182px;
-  height: 52px;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
@@ -85,7 +84,20 @@
   margin-top: 20px;
 }
 
+.report {
+  top: 106px;
+  left: 206px;
+  position: inherit;
+}
+
+.lead {
+  top: 36px;
+  left: 509px;
+  position: inherit;
+}
+
 .single-icon {
+  width: 138px;
   display: flex;
   flex-direction: column;
   align-items: center;
