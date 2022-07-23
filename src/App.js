@@ -7,6 +7,7 @@ import group from "../src/img/group.png";
 import community_manager from "../src/img/community_manager.png";
 import browser from "../src/img/browser.png";
 import crm from "../src/img/crm.png";
+import payquad from "../src/img/payquad.png";
 
 function App() {
   return (
@@ -65,7 +66,9 @@ function App() {
             </div>
           </div>
           <div className="third-box">
-            <div className="core-box"></div>
+            <div className="core-box">
+              <img src={payquad} alt="" />
+            </div>
           </div>
         </div>
       </div>
