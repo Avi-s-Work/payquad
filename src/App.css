@@ -219,12 +219,20 @@
   top: 162px;
 }
 
-.lead:hover strong {
-  top: 262px;
-}
-
 .lead strong:before {
   left: 125px;
+}
+
+.lead:hover strong {
+  top: 184px;
+}
+
+.resident strong:before {
+  left: 145px;
+}
+
+.resident:hover strong {
+  top: 186px;
 }
 
 .single-icon:hover strong {
